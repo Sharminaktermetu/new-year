@@ -74,3 +74,21 @@
     margin-top: 50px;
 }
 /* contact me added */
+
+.contact-part-container{
+    background-image: url(images/gradient3.png), url(images/watch.png);
+    width: 900px;
+    margin: auto;
+    margin-top: 80px;
+    background-blend-mode: multiply;
+    
+}
+.contact-title{
+   padding: 80px 50px;
+  color: azure;
+}
+.contact-title h2{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
