@@ -13,6 +13,8 @@
 }
 .banner-text{
     width: 600px;
+    text-align: right;
+    padding: 0 80px;
 }
 .banner-text h1{
     font-style: normal;
@@ -37,6 +39,16 @@
     font-weight: 600;
     font-size: 20px;
 }
+.btn-secondary{
+    padding: 15px 25px;
+    border: none;
+    background-color: #ffffff;
+    color: #F15B22;
+    border-radius: 4px;
+    box-shadow: 5px 5px 15px gray;
+    font-weight: 600;
+    font-size: 20px;
+}
 /* banner part end */
 
 .failure{
@@ -50,7 +62,9 @@
     color: #444343;
     margin-bottom: 15px;
 }
-
+.checkIcon p i{
+    color: green;
+}
 .failure h2{
     font-weight: 700;
     font-size: 40px;
@@ -73,6 +87,38 @@
     justify-content: space-evenly;
     margin-top: 50px;
 }
+/* bonous cart part */
+.what-do{
+    text-align: center;
+    font-size: 35px;
+    margin: 30px 0;
+}
+.cart-container{
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    padding: 80px;
+}
+.description p{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.single-cart{
+    height: 250px;
+    box-shadow: 6px 6px 5px 2px rgb(229 122 122 / 23%);
+    border-radius: 9px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.cart-title h2{
+    margin: 20px 0;
+    
+}
+.single-cart p{
+    color: #757575;
+   
+}
 /* contact me added */
 
 .contact-part-container{
@@ -81,6 +127,7 @@
     margin: auto;
     margin-top: 80px;
     background-blend-mode: multiply;
+    background-repeat: no-repeat;
     
 }
 .contact-title{
@@ -91,4 +138,37 @@
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 20px;
+}
+/* footer part */
+.future-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #444343;
+    color: white;
+    margin-top: 80px;
+    padding: 50px;
+}
+.future{
+    width: 50%;
+}
+.footer-h2{
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+.future p{
+    width: 40%;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+.icons{
+    display: flex;
+    gap: 13px;
+}
+.subscribe input{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    background-color: white;
+    margin: 20px 0;
+    border-radius: 4px;
 }
