@@ -120,7 +120,12 @@
    
 }
 /* contact me added */
-
+.part-1{
+    width: 50%;
+}
+.part-2{
+    width: 50%;
+}
 .contact-part-container{
     background-image: url(images/gradient3.png), url(images/watch.png);
     width: 900px;
